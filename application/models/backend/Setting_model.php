@@ -61,21 +61,21 @@ class Setting_model extends CI_Model{
 
 	// visimisi information
 
-	function get_visimisi_data(){
-		$query = $this->db->get('tbl_visimisi',1);
-		return $query;
-	}
+	// function get_visimisi_data(){
+	// 	$query = $this->db->get('tbl_visimisi',1);
+	// 	return $query;
+	// }
 
-	function update_information_visimisi($visimisi_id,$description,$image){
-		$this->db->set('visimisi_image',$image);
-		$this->db->set('visimisi_description',$description);
-		$this->db->where('visimisi_id',$visimisi_id);
-		$this->db->update('tbl_visimisi');
-	}
+	// function update_information_visimisi($visimisi_id,$description,$image){
+	// 	$this->db->set('visimisi_image',$image);
+	// 	$this->db->set('visimisi_description',$description);
+	// 	$this->db->where('visimisi_id',$visimisi_id);
+	// 	$this->db->update('tbl_visimisi');
+	// }
 
-	function update_information_visimisi_noimg($visimisi_id,$description){
-		$this->db->set('visimisi_description',$description);
-		$this->db->where('visimisi_id',$visimisi_id);
-		$this->db->update('tbl_visimisi');
-	}
+	// function update_information_visimisi_noimg($visimisi_id,$description){
+	// 	$this->db->set('visimisi_description',$description);
+	// 	$this->db->where('visimisi_id',$visimisi_id);
+	// 	$this->db->update('tbl_visimisi');
+	// }
 }
