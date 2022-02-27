@@ -70,7 +70,7 @@
 				<div class="container relative">
 
 					<div class="row multi-columns-row">
-
+ 
 						<?php foreach ($data->result() as $row) : ?>
 							<div class="col-md-4 col-sm-6 mb-30 wow fadeIn">
 								<article>
@@ -101,7 +101,7 @@
 					<?php echo $page; ?>
 				</div>
 			</section>
-
+ 
 			<!-- SECTION SUBSCRIBE
 				================================================== -->
 			<section class="page-section subscribe-section small-section">

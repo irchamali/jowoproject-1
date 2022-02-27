@@ -18,7 +18,7 @@ class Blog extends CI_Controller {
 	    if(!$page):
 	        $off = 0;
 	    else:
-	        $off = $page;
+	        $off = $page; 
 	    endif;
 	    $limit=9;
 	    $offset = $off > 0 ? (($off - 1) * $limit) : $off;

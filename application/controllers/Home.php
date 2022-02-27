@@ -9,7 +9,7 @@ class Home extends CI_Controller {
 		$this->load->model('Site_model','site_model');
         $this->visitor_model->count_visitor();
         $this->load->helper('text');
-	}
+	} 
 	function index(){
 		//$this->output->enable_profiler(TRUE);
 		$site = $this->site_model->get_site_data()->row_array();
